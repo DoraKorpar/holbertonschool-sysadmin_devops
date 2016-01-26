@@ -1,0 +1,3 @@
+#!/bin/bash
+	path_of_my_default_shell=$(printenv SHELL)
+	echo 'Hello, my shell is' $path_of_my_default_shell
