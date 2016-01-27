@@ -1,2 +1,3 @@
 #!/bin/bash
-	du -shc .  /tmp
+du -shc .  /tmp
+
