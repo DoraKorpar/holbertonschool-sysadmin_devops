@@ -1,4 +1,4 @@
 #!/bin/bash
 home_directory_variable=$(printenv HOME)
 username_variable=$(printenv LOGNAME)
-echo 'Hello, home directory is' $home_directory_variable 'and my name is' $username_variable
+echo 'Hello, home directory is' $home_directory_variable 'and my name is' $username_variable\!
