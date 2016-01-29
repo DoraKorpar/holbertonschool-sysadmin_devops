@@ -1,0 +1,49 @@
+#!/bin/bash
+
+water_5=$(echo $WATER | tr 'water' '01234')
+stir_5=$(echo $STIR | tr 'stir.' '01234')
+water_10=$(echo $((5#$water_5)))
+stir_10=$(echo $((5#$stir_5)))
+base_10=$(echo $(($water_10 + $stir_10)))
+holberton=$(printf '%o\n' $base_10 | tr '01234567' 'behlnort')
+echo $holberton
+
+#echo $water_5
+#echo $stir_5
+#echo $water_10
+#echo $stir_10
+#echo $base_10
+#echo $holberton
+
+
+# echo $((5#$WATER))
+# echo $((5#STIR)) 
+# echo $(($WATER + $STIR))
+# printf '%0\n' echo $(($WATER + $STIR)) | tr '01234567' 'behlnort'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# tr "water" "01234"
+# tr "stir." "01234"
+# tr "behlnort" "01234567"
+
+# var3=$(($var1 + $var2))
+
+# var4=$((5#$var3))
+
+# printf "%o\n" $var4
+
+
+
+
