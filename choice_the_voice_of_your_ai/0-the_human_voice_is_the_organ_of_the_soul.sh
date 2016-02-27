@@ -1,16 +1,20 @@
 #!/bin/bash
 
+message=$1;
+address=$3;
 case $2 in
-    "f") VOICE=Anges
+    "f") voice=Anges
 	;;
-    "m") VOICE=Albert
+    "m") voice=Albert
 	;;
-    "x") VOICE=Bad News
+    "x") voice=Bad News
 	;;
 esac
 
+filename=echo $message | awk '{print $1}'
+say -v $voice -o $filename.m4a $message
 
-say -v Agnes  $1;
+scp $filename.m4a admin@$address
 
-message=$1;
-echo $1 | awk '{print $1}';
+
+
