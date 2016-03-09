@@ -1,0 +1,2 @@
+#!/bin/bash
+ifconfig -a | egrep -o '([a-f|0-9]{2}:){5}[a-f|0-9]{2}'
