@@ -1,0 +1,2 @@
+#!/bin/bash
+water_5=$(echo $WATER | tr 'water' '01234'); stir_5=$(echo $STIR | tr 'stir.' '01234'); echo "ibase=5; obase=8; $water_5 + $stir_5" | bc | tr '01234567' 'behlnort'
