@@ -1,0 +1,14 @@
+total 48
+drwxrwxr-x  2 dora dora 4096 Feb 25 18:11 .
+drwxrwxr-x 26 dora dora 4096 Feb 25 16:05 ..
+-rwxrwxr-x  1 dora dora   30 Feb 25 17:36 0-hello_world
+-rwxrwxr-x  1 dora dora   28 Feb 25 16:54 1-confused_smiley
+-rwxrwxr-x  1 dora dora   28 Feb 25 17:37 2-hellofile
+-rwxrwxr-x  1 dora dora   39 Feb 25 17:39 3-twofiles
+-rwxrwxr-x  1 dora dora   29 Feb 25 17:40 4-lastlines
+-rwxrwxr-x  1 dora dora   29 Feb 25 17:40 5-firstlines
+-rwxrwxr-x  1 dora dora   40 Feb 25 17:46 6-third_line
+-rwxrwxr-x  1 dora dora   36 Feb 25 18:11 8-cwd_state
+-rw-rw-r--  1 dora dora  800 Feb 25 17:45 iacta
+-rw-rw-r--  1 dora dora    0 Feb 25 18:12 ls_cwd_content
+-rw-rw-r--  1 dora dora 2453 Feb 25 17:31 README.md
