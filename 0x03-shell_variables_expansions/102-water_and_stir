@@ -1,2 +1,2 @@
 #!/bin/bash
-water_5=$(echo $WATER | tr 'water' '01234'); stir_5=$(echo $STIR | tr 'stir.' '01234'); water_10=$(echo $((5#$water_5))); stir_10=$(echo $((5#$stir_5))); base_10=$(echo $(($water_10 + $stir_10))); holberton=$(printf '%o\n' $base_10 | tr '01234567' 'behlnort'); echo $holberton
+echo $(printf '%o\n' $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'behlnort')
